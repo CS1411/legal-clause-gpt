@@ -1,0 +1,15 @@
+clause-type accuracy on 120 held-out clauses: 99.2% (random = 16.7%)
+
+per type (correct / clauses):
+  Governing Laws      17 / 17
+  Notices             20 / 20
+  Counterparts        28 / 28
+  Entire Agreements   22 / 22
+  Severability        16 / 16
+  Survival            16 / 17
+
+most common confusions (true -> predicted):
+  Survival           -> Severability       x1
+
+a few misses:
+  true=Survival           pred=Severability       :: The indemnification and contribution by any such party ...

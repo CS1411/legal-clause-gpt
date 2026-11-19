@@ -11,8 +11,8 @@ Papers and data: [LEDGAR (Tuggener et al., 2020)](https://aclanthology.org/2020.
 - [x] Lesson 3 - Classification as generation
 - [x] Lesson 4 - Teach the tokenizer new words
 - [x] Lesson 5 - Fine-tune with the Trainer
-- [ ] Lesson 6 - Ask it to tag a clause
-- [ ] Lesson 7 - How good is it?
+- [x] Lesson 6 - Ask it to tag a clause
+- [x] Lesson 7 - How good is it?
 - [ ] Lesson 8 - Ship your clause tagger
 - [ ] Completion test
 - [ ] Project
