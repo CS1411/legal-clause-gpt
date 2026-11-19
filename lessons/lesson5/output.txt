@@ -1,0 +1,7 @@
+{'loss': '2.366', 'grad_norm': '15.58', 'learning_rate': '0.0003911', 'epoch': '0.6667'}
+{'loss': '0.7363', 'grad_norm': '4.263', 'learning_rate': '0.00028', 'epoch': '1.333'}
+{'loss': '0.2614', 'grad_norm': '107.3', 'learning_rate': '0.0001689', 'epoch': '2'}
+{'loss': '0.17', 'grad_norm': '0.01983', 'learning_rate': '5.778e-05', 'epoch': '2.667'}
+{'train_runtime': '530.6', 'train_samples_per_second': '3.392', 'train_steps_per_second': '0.424', 'train_loss': '0.7855', 'epoch': '3'}
+
+saved fine-tuned model to legalgpt-ft/ (Lessons 6-8 load it)
