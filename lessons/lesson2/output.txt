@@ -1,0 +1,9 @@
+splits: {'train': 60000, 'test': 10000, 'validation': 10000}
+number of clause types: 100
+
+the 6 most common types (what we'll train on): ['Governing Laws', 'Notices', 'Counterparts', 'Entire Agreements', 'Severability', 'Survival']
+
+sample clauses:
+  [Waivers] Except as otherwise set forth in this Debenture, the Company, for itself and its legal rep...
+  [Erisa] No ERISA Event has occurred or is reasonably expected to occur that, when taken together w...
+  [Counterparts] This Amendment may be executed by one or more of the parties hereto on any number of separ...

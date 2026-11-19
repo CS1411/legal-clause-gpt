@@ -6,8 +6,8 @@ Papers and data: [LEDGAR (Tuggener et al., 2020)](https://aclanthology.org/2020.
 
 ## Progress
 
-- [ ] Lesson 1 - The task: tag a clause
-- [ ] Lesson 2 - Meet LEDGAR
+- [x] Lesson 1 - The task: tag a clause
+- [x] Lesson 2 - Meet LEDGAR
 - [ ] Lesson 3 - Classification as generation
 - [ ] Lesson 4 - Teach the tokenizer new words
 - [ ] Lesson 5 - Fine-tune with the Trainer

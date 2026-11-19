@@ -1,0 +1,13 @@
+A contract is a stack of clauses, and every clause has a type a reviewer must recognise.
+
+Governing Laws   <- This Agreement shall be governed by the laws of the State of Delaware.
+Notices          <- All notices under this Agreement shall be in writing and sent by certified mail.
+Counterparts     <- This Agreement may be executed in counterparts, each of which shall be deemed an original.
+
+GPT-2 is a generator, not a classifier, so each example becomes ONE string for it to learn:
+
+  This Agreement shall be governed by the laws of the State of Delaware. <Governing Laws>
+  All notices under this Agreement shall be in writing and sent by certified mail. <Notices>
+  This Agreement may be executed in counterparts, each of which shall be deemed an original. <Counterparts>
+
+At test time we give it only the clause, and the label token it generates is the prediction.
