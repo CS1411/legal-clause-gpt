@@ -1,0 +1,9 @@
+reframed training examples (note each ends with its label token):
+
+  ...ble such provision in any other jurisdiction. <Severability>
+  ...s Agreement or the Employment Agreement. <Entire Agreements>
+  ... as either Party may substitute by written notice. <Notices>
+  ... mutual, written consent of the parties. <Entire Agreements>
+
+training subset: 600 clauses (6 types x 100, balanced)
+per type: {'Governing Laws': 100, 'Notices': 100, 'Counterparts': 100, 'Entire Agreements': 100, 'Severability': 100, 'Survival': 100}

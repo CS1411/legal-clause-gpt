@@ -1,0 +1,16 @@
+BEFORE: '<Governing Laws>' -> 6 tokens: ['<', 'G', 'over', 'ning', 'ĠLaws', '>']
+AFTER : '<Governing Laws>' -> 1 token : ['<Governing Laws>']
+
+embeddings resized: 50257 -> 50263 rows
+
+BPE can spell any word, so no vocabulary words are added, only the six clause types:
+  indemnification  -> ['ind', 'emn', 'ification']
+  hereinafter      -> ['here', 'ina', 'fter']
+  notwithstanding  -> ['not', 'withstanding']
+  Delaware         -> ['Del', 'aware']
+  zzxqwv           -> ['zz', 'x', 'q', 'w', 'v']
+
+batch shape (rows x tokens): (2, 14)
+  clause 0: mask [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  (0 = padding, ignored)
+  clause 1: mask [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]  (0 = padding, ignored)
+pad token = '<|endoftext|>' (id 50256), reused from end-of-text
