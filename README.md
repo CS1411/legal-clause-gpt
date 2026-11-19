@@ -21,8 +21,8 @@ Data and papers: [LEDGAR (Tuggener et al., 2020)](https://aclanthology.org/2020.
 - [x] Lesson 6 - Ask it to tag a clause
 - [x] Lesson 7 - How good is it?
 - [x] Lesson 8 - Ship your clause tagger
-- [ ] Completion test
-- [ ] Project
+- [x] Completion test
+- [x] Project ([event-planning-request-sorter](https://github.com/CS1411/event-planning-request-sorter))
 
 ## Results
 
